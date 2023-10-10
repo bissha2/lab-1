@@ -3,14 +3,15 @@
 
 #include <iostream>
 using namespace std;
+int a;
 int main()
 {
 	int x[9];
-	for (int a = 0; a < 9;a++) {
+	for ( a = 0; a < 9;a++) {
 		x[a] = 12 + a;
-		cout << x[a];
-
+		cout << x[a] << " ";
+		
 	}
-	
-	
+	cout << " elapsed time " << a + 2;
+	return 0;
 }
