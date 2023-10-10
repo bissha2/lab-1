@@ -5,10 +5,9 @@
 
 int main()
 {
-	int x[5];
-	for (int a = 0; a < 5;a++) {
+	int x[9];
+	for (int a = 9; a < 9;a++) {
 		x[a] = 12 + a;
-
 	}
 	
 	
