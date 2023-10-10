@@ -12,6 +12,7 @@ int main()
 		cout << x[a] << " ";
 		
 	}
-	cout << " elapsed time " << a + 2;
+	cout << endl<<" elapsed time " << a + 2;
+	cout << endl << "complexity is" << "O(n)"<<endl;
 	return 0;
 }
